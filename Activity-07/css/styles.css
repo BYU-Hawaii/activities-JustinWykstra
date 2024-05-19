@@ -8,3 +8,5 @@ header {background-color: aquamarine; color: #1a211e; padding: 10px 0;margin: 0 
 /*box-shadow is giving the sizing info and color for the shadowing effect you see bellow the video and images. */
 footer { background-color: aquamarine; color: #1a211e; padding: 10px 0; text-align: center; }
 /* Styling for the footer section */ 
+section {font-family:"Shadows Into Light", cursive; font-weight: 400; font-style: normal}
+/* Applied Google Font "Shadows into light" for Bonus Points */
