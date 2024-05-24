@@ -28,6 +28,7 @@ a {
 }
 .float-container {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     padding: 0 20px;
     background-color: azure;
