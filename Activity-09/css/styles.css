@@ -1,0 +1,28 @@
+body {
+    font-family: cursive;
+}
+ul {
+    padding: none;
+    list-style: none;
+    border: 1px 1px;
+}
+li {
+    width: 10ex;
+    height: 5ex;
+    background-color: #dddddd;
+    border: 2px solid #a1a;
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    box-shadow: 1px 1px;
+    transition: 1s;
+}
+li:hover {
+    background-color: aquamarine;
+    
+}
+a {
+    padding: 10px 10px;
+}
