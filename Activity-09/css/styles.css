@@ -26,23 +26,36 @@ li:hover {
 a {
     padding: 10px 10px;
 }
-.float-container {
+.flex-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0 20px;
     background-color: azure;
 }
-.float-container img {
-    float:left;
-    margin-right: 20px;
-    width: 25%;
-}
-.float-left {
+.flex-left {
     float:left;
     margin-right: 20px;
     width: 150px;
 }
-.clearfix {
-
+.float-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+.float-container img {
+    float:left;
+    margin-right: 20px;
+    width: 100%;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.left-column {
+    float: left;
+}
+.right-column {
+    float: right;
 }
