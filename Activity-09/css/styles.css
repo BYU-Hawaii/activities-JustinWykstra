@@ -26,3 +26,15 @@ li:hover {
 a {
     padding: 10px 10px;
 }
+.float-container {
+    padding: 20px;
+    background-color: azure;
+}
+.float-container img {
+    float:left;
+    margin-right: 20px;
+    width: auto;
+}
+.clearfix {
+    
+}
