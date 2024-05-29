@@ -59,6 +59,6 @@ a {
 .right-column {
     float: right;
 }
-image {
-    size-adjust: 10cm;
+section image {
+    size-adjust: 40%;
 }
