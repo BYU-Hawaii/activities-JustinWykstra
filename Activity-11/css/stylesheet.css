@@ -14,13 +14,29 @@
 }
 .item1 {
     grid-column: 1/1;
+    cursor: pointer;
 }
 .item2 {
-
+    cursor: pointer;
 }
 .item3 {
-    
+    cursor: pointer;
 }
 .item4 {
+    cursor: pointer;
+}
+.item5 {
+    cursor: pointer;
+}
+.item6 {
+    cursor: pointer;
+}
+.item7 {
+    cursor: pointer;
+}
+.item8 {
+    cursor: pointer;
+}
+.item9 {
     cursor: pointer;
 }
