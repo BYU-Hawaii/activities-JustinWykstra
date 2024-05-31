@@ -1,0 +1,62 @@
+.gird-container-body {
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "sidebar"
+        "main"
+        "footer";
+    gap: 10px;
+    padding: 20px;
+}
+.header {
+    grid-area: header;
+    background-color: aqua;
+}
+.sidebar {
+    grid-area: sidebar;
+    background-color: aquamarine;
+}
+.main {
+    grid-area: main;
+}
+@media (min-width: 768px) {
+    background-color: blue;
+    grid-template-columns: 1fr 1fr;
+}
+@media (min-width: 1024px) {
+    grid-area: main;
+    background-color: red;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.footer {
+    grid-area: footer;
+    background-color: aqua;
+    margin-top: 1px;
+}
+.item1 {
+    cursor: pointer;
+}
+.item2 {
+    cursor: pointer;
+}
+.item3 {
+    cursor: pointer;
+}
+.item4 {
+    cursor: pointer;
+}
+.item5 {
+    cursor: pointer;
+}
+.item6 {
+    cursor: pointer;
+}
+.item7 {
+    cursor: pointer;
+}
+.item8 {
+    cursor: pointer;
+}
+.item9 {
+    cursor: pointer;
+}
