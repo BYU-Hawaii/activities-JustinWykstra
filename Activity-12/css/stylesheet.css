@@ -20,13 +20,17 @@
     grid-area: main;
 }
 @media (min-width: 768px) {
+    body .gird-container {
     background-color: blue;
     grid-template-columns: 1fr 1fr;
+    }
 }
 @media (min-width: 1024px) {
+    body .gird-container {
     grid-area: main;
     background-color: red;
     grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 .footer {
     grid-area: footer;
