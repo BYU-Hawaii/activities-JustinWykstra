@@ -2,6 +2,26 @@ body {
   background-color: whitesmoke;
   margin: 0;
   font-family: Gil Sans;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+  body {
+      font-size: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 24px;
+  }
+}
+
+h2 {
+  padding: 10px 20px;
+  font-size: 14px;
+  color: brown;
 }
 
 header {
@@ -64,10 +84,6 @@ main {
 
 section {
   margin top: 30px;
-}
-
-h2 {
-  color: brown;
 }
 
 footer {
