@@ -14,9 +14,9 @@
 .grid-container {
     display: grid;
     grid-template-areas: 
-        "nav"
-        "header"
-        "main"
+        "nav",
+        "header",
+        "main",
         "footer";
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -98,9 +98,9 @@ footer {
   .grid-container {
     display: grid;
     grid-template-areas:
-        "header"
-        "nav"
-        "main"
+        "header",
+        "nav",
+        "main",
         "footer";
   }
 
