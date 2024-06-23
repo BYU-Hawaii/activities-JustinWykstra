@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FunZone - Now Hiring</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <div class="logo">FunZone</div>
+    <nav class="nav">
+        <ul>
+            <li><a href="/final-project-IT240/index.html">Home</a></li>
+            <li><a href="/final-project-IT240/about.html">About</a></li>
+            <li><a href="/final-project-IT240/play.html">Play</a></li>
+            <li><a href="/final-project-IT240/services.html">Now Hiring!</a></li>
+            <li><a href="/final-project-IT240/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <section class="hiring-intro">
+            <h1>Join the FunZone Team!</h1>
+            <p>Are you passionate about creating fun and educational experiences for children? Come work with us at FunZone! We're always looking for talented and creative individuals to join our team.</p>
+        </section>
+        <section class="job-listings">
+            <h2>Current Openings</h2>
+            <div class="job">
+                <h3>Game Developer</h3>
+                <p><strong>Key Responsibilities:</strong> Develop and maintain interactive games for children.</p>
+                <p><strong>Qualifications:</strong> Experience in game development, proficiency in JavaScript, HTML, and CSS, and a passion for children's education and entertainment.</p>
+                <a href="#application-form" class="apply-button">Apply Now</a>
+            </div>
+            <div class="job">
+                <h3>Creative Director</h3>
+                <p><strong>Key Responsibilities:</strong> Lead the creative team, oversee the design of games and content, and ensure alignment with FunZone's vision and values.</p>
+                <p><strong>Qualifications:</strong> Proven experience in a creative leadership role, strong portfolio, and excellent communication skills.</p>
+                <a href="#application-form" class="apply-button">Apply Now</a>
+            </div>
+            <!-- Add more job listings as needed -->
+        </section>
+        <section class="application-form-section" id="application-form">
+            <h2>Apply Now</h2>
+            <form action="submit_application.php" method="post" class="application-form" enctype="multipart/form-data">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <label for="position">Position Applied For:</label>
+                <select id="position" name="position" required>
+                    <option value="game-developer">Game Developer</option>
+                    <option value="creative-director">Creative Director</option>
+                    <!-- Add more options as needed -->
+                </select>
+                
+                <label for="resume">Upload Resume:</label>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+                
+                <label for="message">Message/Cover Letter:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Submit Application</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 Final Project</p>
+    </footer>
+</body>
+</html>
