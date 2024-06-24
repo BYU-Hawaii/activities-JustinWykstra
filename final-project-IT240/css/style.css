@@ -31,8 +31,13 @@
     margin: 0;
   }
   
-  nav li {
-    border-right: 1px solid grey;
+  nav {
+    background-color: #a2ed86;
+    width: 100%;
+    margin: 0;
+    padding: 20px 5px;
+    position: sticky;
+    top: 0;
   }
   
   nav li:last-child {
@@ -46,14 +51,13 @@
   
   nav a {
     text-decoration: none;
-    color: #a2ed86;
+    color: #09274b;
     font-weight: bold;
     padding: 14px 16px;
   }
   
   nav a:hover {
-    background-color: #a2ed86;
-    color: #2e1a1a;
+    color: white;
   }
   
   h2 {
@@ -137,17 +141,7 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
-}
-
-nav ul li {
-    margin: 0 10px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
+}  
 
 .contact-intro, .contact-form-section, .contact-details {
     text-align: center;
